@@ -1,0 +1,32 @@
+<acceptance-test-run title="Login" name="Login" description="" steps="3" successful="0" failures="0" skipped="0" ignored="3" pending="0" result="SUCCESS" duration="353" timestamp="2017-08-30T16:53:30.750+10:00">
+  <user-story id="home-page-login" name="Home Page Login" path="features/GiftCard.feature"/>
+  <tags>
+    <tag name="Home Page Login" type="feature"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0" name="" description=""/>
+    </datasets>
+    <headers>
+      <header>UserName</header>
+      <header>Passwd</header>
+    </headers>
+    <rows>
+      <row result="SUCCESS">
+        <value>k.keerthipriya@gmail.com</value>
+        <value>kiran143</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {UserName=k.keerthipriya@gmail.com, Passwd=kiran143}" result="SUCCESS">
+    <test-step result="IGNORED" duration="8">
+      <description>Given I am registered user</description>
+    </test-step>
+    <test-step result="IGNORED" duration="5">
+      <description>When I open Forever login page and enter login details &apos;k.keerthipriya@gmail.com&apos; and &apos;kiran143&apos;</description>
+    </test-step>
+    <test-step result="IGNORED" duration="3">
+      <description>Then I should login to the forever new</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

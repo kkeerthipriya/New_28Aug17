@@ -1,0 +1,57 @@
+<acceptance-test-run title="Gift card" name="GiftCard" description="" steps="4" successful="0" failures="0" skipped="0" ignored="4" pending="0" result="SUCCESS" duration="51" timestamp="2017-08-30T16:53:36.823+10:00">
+  <user-story id="home-page-login" name="Home Page Login" path="features/GiftCard.feature"/>
+  <tags>
+    <tag name="Home Page Login" type="feature"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0" name="" description=""/>
+    </datasets>
+    <headers>
+      <header>Uname</header>
+      <header>Pwd</header>
+      <header>GiftCardValue</header>
+      <header>QTY</header>
+      <header>SenName</header>
+      <header>SenEmail</header>
+      <header>RcvName</header>
+      <header>RcvEmail</header>
+      <header>Msg</header>
+      <header>CreditCardNo</header>
+      <header>ExpMonth</header>
+      <header>ExpYear</header>
+      <header>CVV</header>
+    </headers>
+    <rows>
+      <row result="SUCCESS">
+        <value>k.keerthipriya@gmail.com</value>
+        <value>kiran143</value>
+        <value>Gift Card CA +$20.00</value>
+        <value>1</value>
+        <value>Keerthi</value>
+        <value>k.keerthipriya@gmail.com</value>
+        <value>Kiran</value>
+        <value>kiroooos@gmail.com</value>
+        <value>Happy weekend</value>
+        <value>4444333322221111</value>
+        <value>11</value>
+        <value>20</value>
+        <value>123</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {Uname=k.keerthipriya@gmail.com, Pwd=kiran143, GiftCardValue=Gift Card CA +$20.00, QTY=1, SenName=Keerthi, SenEmail=k.keerthipriya@gmail.com, RcvName=Kiran, RcvEmail=kiroooos@gmail.com, Msg=Happy weekend, CreditCardNo=4444333322221111, ExpMonth=11, ExpYear=20, CVV=123}" result="SUCCESS">
+    <test-step result="IGNORED" duration="4">
+      <description>Given I open the Forever New home page &apos;k.keerthipriya@gmail.com&apos; and &apos;kiran143&apos;</description>
+    </test-step>
+    <test-step result="IGNORED" duration="3">
+      <description>When I open buy gift cards page</description>
+    </test-step>
+    <test-step result="IGNORED" duration="4">
+      <description>And give all the details &apos;Gift Card CA +$20.00&apos; and &apos;1&apos; and &apos;Keerthi&apos; and &apos;k.keerthipriya@gmail.com&apos; and &apos;Kiran&apos; and &apos;kiroooos@gmail.com&apos; and &apos;Happy weekend&apos; and &apos;4444333322221111&apos; and &apos;11&apos; and &apos;20&apos; and &apos;123&apos;</description>
+    </test-step>
+    <test-step result="IGNORED" duration="4">
+      <description>Then I should login to the forever new website</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

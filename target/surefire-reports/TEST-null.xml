@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="null" time="0.2" tests="10" errors="3" skipped="7" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
+    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="U:\Keerthi Priya\AuomationProjects\Forever1"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="AU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="U:\Keerthi Priya\AuomationProjects\Forever1"/>
+    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\KPKOMM~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Softwares\apache-maven-3.5.0\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Softwares\apache-maven-3.5.0\bin;C:\Program Files\Git\cmd;."/>
+    <property name="maven.conf" value="C:\Softwares\apache-maven-3.5.0\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Softwares\apache-maven-3.5.0\bin\..\lib\jansi-native\windows64"/>
+    <property name="user.home" value="C:\Users\kpkommuri"/>
+    <property name="user.timezone" value="Australia/Sydney"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="kpkommuri"/>
+    <property name="java.class.path" value="C:\Softwares\apache-maven-3.5.0\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_144\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_144"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp850"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Softwares\apache-maven-3.5.0\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp850"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="| k.keerthipriya@gmail.com | kiran143 |" classname="| k.keerthipriya@gmail.com | kiran143 |" time="0.004">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.forever.testautomation.hooks.BrowserHooks.openBrowser(BrowserHooks.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:211)
+	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:201)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:55)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:47)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:77)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:53)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:144)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</error>
+    <system-out><![CDATA[Feature: Home Page Login
+  User should login to forever new
+
+  Scenario Outline: Login                                                              &amp#27;[90m# features/GiftCard.feature:6&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mI am registered user&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI open Forever login page and enter login details '<UserName>' and '<Passwd>'&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should login to the forever new&amp#27;[0m
+
+    Examples: 
+Called openBrowser
+]]></system-out>
+    <system-err><![CDATA[99 [main] INFO net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM U:\Keerthi Priya\AuomationProjects\Forever1\serenity.properties 
+100 [main] INFO net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM U:\Keerthi Priya\AuomationProjects\Forever1\serenity.properties 
+101 [main] INFO net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM U:\Keerthi Priya\AuomationProjects\Forever1\serenity.properties 
+102 [main] INFO net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=provided
+102 [main] INFO net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.provided.type=mydriver
+102 [main] INFO net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.browser,height=1200
+102 [main] INFO net.thucydides.core.util.PropertiesFileLocalPreferences - thucydides.driver.capabilities=mydriver
+102 [main] INFO net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.provided.mydriver=C:\Users\Kiran Parepalli\Downloads\chromedriver_win32\chromedriver.exe
+102 [main] INFO net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.dry.run=false
+102 [main] INFO net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.verbose.steps=true
+102 [main] INFO net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.console.colors=true
+102 [main] INFO net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.project.name=Test Project using Selenium, Cucumber + gherkin(for simple english test cases), Serenity(for reporting)
+102 [main] INFO net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.browser,width=1200
+102 [main] INFO net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.wait.for.timeout=5000
+102 [main] INFO net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.use.unique.browser=false
+102 [main] INFO net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.requirement.types=epic,feature
+103 [main] INFO net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.timeouts.implicitlywait=5000
+103 [main] INFO net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.take.screenshots=AFTER_EACH_STEP
+982 [main] INFO net.thucydides.core.webdriver.SystemPropertiesConfiguration - project.build.directory : null
+982 [main] INFO net.thucydides.core.webdriver.SystemPropertiesConfiguration - project.reporting.OutputDirectory : null
+989 [main] INFO net.thucydides.core.webdriver.SystemPropertiesConfiguration - OutputDirectory : U:\Keerthi Priya\AuomationProjects\Forever1\target\site\serenity
+1003 [main] INFO net.serenitybdd.core.Serenity - &amp#27;[96m
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+-------------------------------------------------------------------------------------
+&amp#27;[0m
+1018 [main] INFO net.serenitybdd.core.Serenity - Test Suite Started: Home Page Login
+1186 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Login
+-------------------------------------------------------------------
+1235 [main] INFO net.thucydides.core.webdriver.SystemPropertiesConfiguration - project.build.directory : null
+1235 [main] INFO net.thucydides.core.webdriver.SystemPropertiesConfiguration - project.reporting.OutputDirectory : null
+1235 [main] INFO net.thucydides.core.webdriver.SystemPropertiesConfiguration - OutputDirectory : U:\Keerthi Priya\AuomationProjects\Forever1\target\site\serenity
+]]></system-err>
+  </testcase>
+  <testcase name="Given I am registered user" classname="| k.keerthipriya@gmail.com | kiran143 |" time="0">
+    <skipped/>
+    <system-out><![CDATA[&amp#27;[31mFailure in before hook:&amp#27;[0m&amp#27;[31mBrowserHooks.openBrowser()&amp#27;[0m
+&amp#27;[31mMessage: &amp#27;[0m&amp#27;[31mjava.lang.NullPointerException
+	at com.forever.testautomation.hooks.BrowserHooks.openBrowser(BrowserHooks.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:211)
+	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:201)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:55)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:47)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:77)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:53)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:144)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+      	at com.forever.testautomation.hooks.BrowserHooks.openBrowser(BrowserHooks.java:29)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.lang.reflect.Method.invoke(Method.java:498)
+      	at cucumber.runtime.Utils$1.call(Utils.java:37)
+      	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+      	at cucumber.runtime.Utils.invoke(Utils.java:31)
+      	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)
+      	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)
+      	at cucumber.runtime.Runtime.runHooks(Runtime.java:211)
+      	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:201)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)
+      	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+      	at org.junit.runners.Suite.runChild(Suite.java:127)
+      	at org.junit.runners.Suite.runChild(Suite.java:26)
+      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+      	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+      	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:55)
+      	at org.junit.runners.Suite.runChild(Suite.java:127)
+      	at org.junit.runners.Suite.runChild(Suite.java:26)
+      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+      	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+      	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:47)
+      	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+      	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+      	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+      	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+      	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+      	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+      	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+      	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+      	at org.junit.runners.Suite.runChild(Suite.java:127)
+      	at org.junit.runners.Suite.runChild(Suite.java:26)
+      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+      	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+      	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+      	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+      	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:107)
+      	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:77)
+      	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:53)
+      	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:144)
+      	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+      	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+      	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+      &amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="When I open Forever login page and enter login details &apos;k.keerthipriya@gmail.com&apos; and &apos;kiran143&apos;" classname="| k.keerthipriya@gmail.com | kiran143 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I should login to the forever new" classname="| k.keerthipriya@gmail.com | kiran143 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="| k.keerthipriya@gmail.com | kiran143 | Gift Card CA +$20.00 | 1 | Keerthi | k.keerthipriya@gmail.com | Kiran | kiroooos@gmail.com | Happy weekend | 4444333322221111 | 11 | 20 | 123 |" classname="| k.keerthipriya@gmail.com | kiran143 | Gift Card CA +$20.00 | 1 | Keerthi | k.keerthipriya@gmail.com | Kiran | kiroooos@gmail.com | Happy weekend | 4444333322221111 | 11 | 20 | 123 |" time="0.004">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.forever.testautomation.hooks.BrowserHooks.openBrowser(BrowserHooks.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:211)
+	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:201)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:55)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:47)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:77)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:53)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:144)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</error>
+    <system-out><![CDATA[Finshed ############################
+
+  Scenario Outline: Login                                                                            &amp#27;[90m# features/GiftCard.feature:12&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mI am registered user&amp#27;[0m                                                                       &amp#27;[90m# LoginDefinition.i_am_registered_user()&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI open Forever login page and enter login details '&amp#27;[0m&amp#27;[36m&amp#27;[1mk.keerthipriya@gmail.com&amp#27;[0m&amp#27;[36m' and '&amp#27;[0m&amp#27;[36m&amp#27;[1mkiran143&amp#27;[0m&amp#27;[36m'&amp#27;[0m &amp#27;[90m# LoginDefinition.i_enter_the_login_details_as_k_keerthipriya_gmail_com_and_kiran(String,String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should login to the forever new&amp#27;[0m                                                           &amp#27;[90m# LoginDefinition.i_should_login_to_the_forever_new_website()&amp#27;[0m
+
+  Scenario Outline: GiftCard                                                                                                                                                                               &amp#27;[90m# features/GiftCard.feature:14&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mI open the Forever New home page '<Uname>' and '<Pwd>'&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI open buy gift cards page&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mgive all the details '<GiftCardValue>' and '<QTY>' and '<SenName>' and '<SenEmail>' and '<RcvName>' and '<RcvEmail>' and '<Msg>' and '<CreditCardNo>' and '<ExpMonth>' and '<ExpYear>' and '<CVV>'&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should login to the forever new website&amp#27;[0m
+
+    Examples: 
+Called openBrowser
+]]></system-out>
+    <system-err><![CDATA[1448 [main] INFO net.serenitybdd.core.Serenity - &amp#27;[92m
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Login
+----------------------------------------------------------------------------&amp#27;[0m
+log4j:WARN No appenders could be found for logger (freemarker.cache).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+7165 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: GiftCard
+-------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="Given I open the Forever New home page &apos;k.keerthipriya@gmail.com&apos; and &apos;kiran143&apos;" classname="| k.keerthipriya@gmail.com | kiran143 | Gift Card CA +$20.00 | 1 | Keerthi | k.keerthipriya@gmail.com | Kiran | kiroooos@gmail.com | Happy weekend | 4444333322221111 | 11 | 20 | 123 |" time="0">
+    <skipped/>
+    <system-out><![CDATA[&amp#27;[31mFailure in before hook:&amp#27;[0m&amp#27;[31mBrowserHooks.openBrowser()&amp#27;[0m
+&amp#27;[31mMessage: &amp#27;[0m&amp#27;[31mjava.lang.NullPointerException
+	at com.forever.testautomation.hooks.BrowserHooks.openBrowser(BrowserHooks.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:211)
+	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:201)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:55)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:47)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:77)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:53)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:144)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+      	at com.forever.testautomation.hooks.BrowserHooks.openBrowser(BrowserHooks.java:29)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.lang.reflect.Method.invoke(Method.java:498)
+      	at cucumber.runtime.Utils$1.call(Utils.java:37)
+      	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+      	at cucumber.runtime.Utils.invoke(Utils.java:31)
+      	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)
+      	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)
+      	at cucumber.runtime.Runtime.runHooks(Runtime.java:211)
+      	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:201)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)
+      	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+      	at org.junit.runners.Suite.runChild(Suite.java:127)
+      	at org.junit.runners.Suite.runChild(Suite.java:26)
+      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+      	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+      	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:55)
+      	at org.junit.runners.Suite.runChild(Suite.java:127)
+      	at org.junit.runners.Suite.runChild(Suite.java:26)
+      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+      	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+      	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:47)
+      	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+      	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+      	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+      	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+      	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+      	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+      	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+      	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+      	at org.junit.runners.Suite.runChild(Suite.java:127)
+      	at org.junit.runners.Suite.runChild(Suite.java:26)
+      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+      	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+      	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+      	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+      	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:107)
+      	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:77)
+      	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:53)
+      	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:144)
+      	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+      	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+      	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+      &amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="When I open buy gift cards page" classname="| k.keerthipriya@gmail.com | kiran143 | Gift Card CA +$20.00 | 1 | Keerthi | k.keerthipriya@gmail.com | Kiran | kiroooos@gmail.com | Happy weekend | 4444333322221111 | 11 | 20 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And give all the details &apos;Gift Card CA +$20.00&apos; and &apos;1&apos; and &apos;Keerthi&apos; and &apos;k.keerthipriya@gmail.com&apos; and &apos;Kiran&apos; and &apos;kiroooos@gmail.com&apos; and &apos;Happy weekend&apos; and &apos;4444333322221111&apos; and &apos;11&apos; and &apos;20&apos; and &apos;123&apos;" classname="| k.keerthipriya@gmail.com | kiran143 | Gift Card CA +$20.00 | 1 | Keerthi | k.keerthipriya@gmail.com | Kiran | kiroooos@gmail.com | Happy weekend | 4444333322221111 | 11 | 20 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I should login to the forever new website" classname="| k.keerthipriya@gmail.com | kiran143 | Gift Card CA +$20.00 | 1 | Keerthi | k.keerthipriya@gmail.com | Kiran | kiroooos@gmail.com | Happy weekend | 4444333322221111 | 11 | 20 | 123 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Failure when constructing test" classname="com.forever.testautomation.RunnerTest" time="0.192">
+    <error message="org/openqa/selenium/edge/EdgeDriver" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: org/openqa/selenium/edge/EdgeDriver
+	at net.thucydides.core.webdriver.SupportedWebDriver.<clinit>(SupportedWebDriver.java:59)
+	at net.thucydides.core.webdriver.SystemPropertiesConfiguration.lookupSupportedDriverTypeFor(SystemPropertiesConfiguration.java:290)
+	at net.thucydides.core.webdriver.SystemPropertiesConfiguration.getDriverType(SystemPropertiesConfiguration.java:117)
+	at net.thucydides.core.webdriver.SerenityWebdriverManager.getDefaultDriverType(SerenityWebdriverManager.java:140)
+	at net.thucydides.core.webdriver.SerenityWebdriverManager.getWebdriver(SerenityWebdriverManager.java:86)
+	at net.thucydides.core.webdriver.ThucydidesWebDriverSupport.getDriver(ThucydidesWebDriverSupport.java:104)
+	at net.thucydides.core.webdriver.ThucydidesWebDriverSupport.getPages(ThucydidesWebDriverSupport.java:145)
+	at net.serenitybdd.core.Serenity.getPages(Serenity.java:168)
+	at net.serenitybdd.core.Serenity.getDefaultDependencyInjectors(Serenity.java:79)
+	at net.serenitybdd.core.Serenity.getDependencyInjectors(Serenity.java:70)
+	at net.serenitybdd.core.Serenity.resetDependencyInjectors(Serenity.java:63)
+	at net.serenitybdd.core.Serenity.done(Serenity.java:153)
+	at net.serenitybdd.core.Serenity.done(Serenity.java:146)
+	at net.serenitybdd.cucumber.SerenityReporter.assureTestSuiteFinished(SerenityReporter.java:535)
+	at net.serenitybdd.cucumber.SerenityReporter.done(SerenityReporter.java:522)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.RuntimeOptions$1.invoke(RuntimeOptions.java:290)
+	at com.sun.proxy.$Proxy21.done(Unknown Source)
+	at cucumber.runtime.junit.JUnitReporter.done(JUnitReporter.java:208)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:99)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:77)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:53)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:144)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.edge.EdgeDriver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at net.thucydides.core.webdriver.SupportedWebDriver.<clinit>(SupportedWebDriver.java:59)
+	at net.thucydides.core.webdriver.SystemPropertiesConfiguration.lookupSupportedDriverTypeFor(SystemPropertiesConfiguration.java:290)
+	at net.thucydides.core.webdriver.SystemPropertiesConfiguration.getDriverType(SystemPropertiesConfiguration.java:117)
+	at net.thucydides.core.webdriver.SerenityWebdriverManager.getDefaultDriverType(SerenityWebdriverManager.java:140)
+	at net.thucydides.core.webdriver.SerenityWebdriverManager.getWebdriver(SerenityWebdriverManager.java:86)
+	at net.thucydides.core.webdriver.ThucydidesWebDriverSupport.getDriver(ThucydidesWebDriverSupport.java:104)
+	at net.thucydides.core.webdriver.ThucydidesWebDriverSupport.getPages(ThucydidesWebDriverSupport.java:145)
+	at net.serenitybdd.core.Serenity.getPages(Serenity.java:168)
+	at net.serenitybdd.core.Serenity.getDefaultDependencyInjectors(Serenity.java:79)
+	at net.serenitybdd.core.Serenity.getDependencyInjectors(Serenity.java:70)
+	at net.serenitybdd.core.Serenity.resetDependencyInjectors(Serenity.java:63)
+	at net.serenitybdd.core.Serenity.done(Serenity.java:153)
+	at net.serenitybdd.core.Serenity.done(Serenity.java:146)
+	at net.serenitybdd.cucumber.SerenityReporter.assureTestSuiteFinished(SerenityReporter.java:535)
+	at net.serenitybdd.cucumber.SerenityReporter.done(SerenityReporter.java:522)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.RuntimeOptions$1.invoke(RuntimeOptions.java:290)
+	at com.sun.proxy.$Proxy21.done(Unknown Source)
+	at cucumber.runtime.junit.JUnitReporter.done(JUnitReporter.java:208)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:99)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:77)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:53)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:144)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]></error>
+    <system-out><![CDATA[Finshed ############################
+
+  Scenario Outline: GiftCard                                                                                                                                                                                         &amp#27;[90m# features/GiftCard.feature:21&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mI open the Forever New home page '&amp#27;[0m&amp#27;[36m&amp#27;[1mk.keerthipriya@gmail.com&amp#27;[0m&amp#27;[36m' and '&amp#27;[0m&amp#27;[36m&amp#27;[1mkiran143&amp#27;[0m&amp#27;[36m'&amp#27;[0m                                                                                                                                 &amp#27;[90m# GiftCardDefn.i_open_the_Forever_Page(String,String)&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI open buy gift cards page&amp#27;[0m                                                                                                                                                                                  &amp#27;[90m# GiftCardDefn.i_open_gift_card_Page()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mgive all the details '&amp#27;[0m&amp#27;[36m&amp#27;[1mGift Card CA +$20.00&amp#27;[0m&amp#27;[36m' and '&amp#27;[0m&amp#27;[36m&amp#27;[1m1&amp#27;[0m&amp#27;[36m' and '&amp#27;[0m&amp#27;[36m&amp#27;[1mKeerthi&amp#27;[0m&amp#27;[36m' and '&amp#27;[0m&amp#27;[36m&amp#27;[1mk.keerthipriya@gmail.com&amp#27;[0m&amp#27;[36m' and '&amp#27;[0m&amp#27;[36m&amp#27;[1mKiran&amp#27;[0m&amp#27;[36m' and '&amp#27;[0m&amp#27;[36m&amp#27;[1mkiroooos@gmail.com&amp#27;[0m&amp#27;[36m' and '&amp#27;[0m&amp#27;[36m&amp#27;[1mHappy weekend&amp#27;[0m&amp#27;[36m' and '&amp#27;[0m&amp#27;[36m&amp#27;[1m4444333322221111&amp#27;[0m&amp#27;[36m' and '&amp#27;[0m&amp#27;[36m&amp#27;[1m11&amp#27;[0m&amp#27;[36m' and '&amp#27;[0m&amp#27;[36m&amp#27;[1m20&amp#27;[0m&amp#27;[36m' and '&amp#27;[0m&amp#27;[36m&amp#27;[1m123&amp#27;[0m&amp#27;[36m'&amp#27;[0m &amp#27;[90m# GiftCardDefn.i_give_all_giftCard_details(String,String,String,String,String,String,String,String,String,String,String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should login to the forever new website&amp#27;[0m                                                                                                                                                                   &amp#27;[90m# GiftCardDefn.i_should_not_be_able_to_go_to_next_page()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[7216 [main] INFO net.serenitybdd.core.Serenity - &amp#27;[92m
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Gift card
+----------------------------------------------------------------------------&amp#27;[0m
+]]></system-err>
+  </testcase>
+</testsuite>
